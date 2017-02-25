@@ -22,6 +22,27 @@ download the dataset and development kit.
 You can use the included `get_miniplaces.sh` script, or manually grab from
 [here](http://dl.caffe.berkeleyvision.org/mit_mini_places/).
 
+## Azure Notes: 
+
+Go ahead and make a GPU per these instructions TODO 
+Ubuntu 16.04 - HDD - North Central US - NV Version 
+
+SSH into the machine 
+ssh administrator@ip.ad.ress.123
+`
+
+$ sudo apt-get update 
+$ git clone https://github.com/tinghuiz/CS280MiniPlaces.git
+$ cd CS280MiniPlaces
+$ . get_miniplaces.sh 
+$ wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_8.0.61-1_amd64.deb
+$ sudo dpkg -i cuda-repo-ubuntu1604_8.0.61-1_amd64.deb
+$ sudo apt-get update 
+$ sudo apt-get install cuda 
+`
+
+
+
 ## Example
 
 This repo provides an [example](https://github.com/tinghuiz/CS280MiniPlaces/blob/master/train_places_net.py)
