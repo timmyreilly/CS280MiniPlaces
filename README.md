@@ -29,8 +29,8 @@ Ubuntu 16.04 - HDD - North Central US - NV Version
 
 SSH into the machine 
 ssh administrator@ip.ad.ress.123
-`
 
+```
 $ sudo apt-get update 
 $ git clone https://github.com/tinghuiz/CS280MiniPlaces.git
 $ cd CS280MiniPlaces
@@ -38,11 +38,24 @@ $ . get_miniplaces.sh
 $ wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_8.0.61-1_amd64.deb
 $ sudo dpkg -i cuda-repo-ubuntu1604_8.0.61-1_amd64.deb
 $ sudo apt-get update 
-$ sudo apt-get install cuda 
-`
+$ sudo apt-get install cuda
+```
 
+Following these instructions now: 
+http://caffe.berkeleyvision.org/install_apt.html 
+```
+$ sudo apt-get install libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev protobuf-compiler
+$ sudo apt-get install --no-install-recommends libboost-all-dev 
+$ sudo apt-get install libatlas-base-dev 
+$ sudo apt-get install python-dev 
+$ sudo apt-get install libgflags-dev libgoogle-glog-dev liblmdb-dev
+```
+Now trying to install numpy:
+```
+$ sudo apt-get python-pip 
+$ pip install numpy
 
-
+```
 ## Example
 
 This repo provides an [example](https://github.com/tinghuiz/CS280MiniPlaces/blob/master/train_places_net.py)
