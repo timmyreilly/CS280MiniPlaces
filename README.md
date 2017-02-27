@@ -54,8 +54,14 @@ Now trying to install numpy:
 ```
 $ sudo apt-get python-pip 
 $ pip install numpy
-
+$RUNNING INTO ISSUES HERE>>>>
 ```
+
+Now trying it with docker
+First installing docker: https://docs.docker.com/engine/installation/linux/ubuntu/ 
+
+Cloning this repo: https://github.com/BVLC/caffe 
+
 ## Example
 
 This repo provides an [example](https://github.com/tinghuiz/CS280MiniPlaces/blob/master/train_places_net.py)
