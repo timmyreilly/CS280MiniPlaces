@@ -62,6 +62,10 @@ First installing docker: https://docs.docker.com/engine/installation/linux/ubunt
 
 Cloning this repo: https://github.com/BVLC/caffe 
 
+Now Trying a different Azure Docker Deployment: 
+https://github.com/NVIDIA/nvidia-docker/wiki/Deploy-on-Azure 
+
+
 ## Example
 
 This repo provides an [example](https://github.com/tinghuiz/CS280MiniPlaces/blob/master/train_places_net.py)
